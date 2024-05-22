@@ -1,0 +1,17 @@
+{
+  "name": "food-project-tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    // "twind": "tailwindcss build src/input.css -o public/styles.css --watch",
+    "twind": "tailwindcss build src/input.css -o public/styles.css",
+    "live": "live-server public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
