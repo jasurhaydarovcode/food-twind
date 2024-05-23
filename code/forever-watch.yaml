@@ -1,0 +1,3 @@
+script:  
+  "twind": "tailwindcss build src/input.css -o public/styles.css --watch"
+        

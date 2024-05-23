@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    // "twind": "tailwindcss build src/input.css -o public/styles.css --watch",
-    "twind": "tailwindcss build src/input.css -o public/styles.css",
-    "live": "live-server public"
+    "go": "live-server public",
+    "build-css": "tailwindcss build src/input.css -o public/styles.css",
+    "twind": "tailwindcss build src/input.css -o public/styles.css --watch"
   },
   "keywords": [],
   "author": "",
